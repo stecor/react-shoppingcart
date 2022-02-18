@@ -1,10 +1,10 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
+    img: "https://cdn.shopify.com/s/files/1/0253/6980/4866/products/wildflower-white-blue-midi-dress-final-sale-dresses-hypeach-boutique-652607_400x.jpg?v=1615248421",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "f5fafd",
+    bg: "fff",
   },
   {
     id: 2,
