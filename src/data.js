@@ -67,7 +67,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img: "https://benscore.com/media/catalog/product/cache/abc0b8b21c324bfe3f686b3f59715c9e/2/2/2217_arrow_jacket_forest.png",
   },
   {
     id: 8,
