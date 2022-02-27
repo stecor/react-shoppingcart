@@ -7,8 +7,6 @@ import { mobile } from "../responsive";
 // Styled-components
 const Container = styled.div`
   height: 60px;
-  display: flex;
-  background-color: red;
   ${mobile({ height: "50px" })};
 `;
 const Wrapper = styled.div`
@@ -39,7 +37,7 @@ const SearchContainer = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "12px", justifyContent: "center" })};
+  ${mobile({ fontSize: "24px", justifyContent: "center" })};
 `;
 
 const Input = styled.input`
@@ -78,7 +76,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>E-commerce</Logo>
+          <Logo>LAGOS</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
