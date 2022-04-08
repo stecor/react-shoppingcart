@@ -6,28 +6,28 @@ import {
   Pinterest,
   Room,
   Twitter,
-} from "@mui/icons-material";
-import styled from "styled-components";
-import { mobile } from "../responsive";
+} from '@mui/icons-material'
+import styled from 'styled-components'
+import { mobile } from '../responsive'
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-`;
+`
 const Left = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
   padding: 20px;
-`;
+`
 
-const Logo = styled.h1``;
+const Logo = styled.h1``
 const Desc = styled.p`
   margin: 20px 0px;
-`;
+`
 const SocialContainer = styled.div`
   display: flex;
-`;
+`
 const SocialIcon = styled.div`
   width: 40px;
   height: 40px;
@@ -38,21 +38,21 @@ const SocialIcon = styled.div`
   align-items: center;
   justify-content: center;
   margin-right: 20px;
-`;
+`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ display: "none" })};
-`;
+  ${mobile({ display: 'none' })};
+`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ backGroundColor: "#fff8f8" })};
-`;
+  ${mobile({ backGroundColor: '#fff8f8' })};
+`
 
 const Title = styled.h3`
   margin-bottom: 30px;
-`;
+`
 
 const List = styled.ul`
   margin: 0;
@@ -60,22 +60,22 @@ const List = styled.ul`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-`;
+`
 
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
-`;
+`
 
 const ContactItem = styled.div`
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-`;
+`
 
 const Payment = styled.img`
-  width: 50%;
-`;
+  width: 20%;
+`
 
 const Footer = () => {
   return (
@@ -91,16 +91,16 @@ const Footer = () => {
           with humans.
         </Desc>
         <SocialContainer>
-          <SocialIcon color="3b5999">
+          <SocialIcon color='3b5999'>
             <Facebook />
           </SocialIcon>
-          <SocialIcon color="e4405f">
+          <SocialIcon color='e4405f'>
             <Instagram />
           </SocialIcon>
-          <SocialIcon color="55acee">
+          <SocialIcon color='55acee'>
             <Twitter />
           </SocialIcon>
-          <SocialIcon color="e60023">
+          <SocialIcon color='e60023'>
             <Pinterest />
           </SocialIcon>
         </SocialContainer>
@@ -123,21 +123,17 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} />
+          <Room style={{ marginRight: '10px' }} />
           622 Dixie Path, South Tobinchester 98336
-        </ContactItem>
-        <ContactItem>
-          <Phone style={{ marginRight: "10px" }} />
+          <Phone style={{ marginRight: '10px', marginLeft: '10px' }} />
           +1 234 56789
-        </ContactItem>
-        <ContactItem>
-          <MailOutline style={{ marginRight: "10px" }} />
+          <MailOutline style={{ marginRight: '10px', marginLeft: '10px' }} />
           contact@e-commerce.com
         </ContactItem>
-        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+        <Payment src='https://i.ibb.co/Qfvn4z6/payment.png' />
       </Right>
     </Container>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
