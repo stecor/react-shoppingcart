@@ -3,7 +3,6 @@ import { Search, ShoppingCartOutlined } from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
 import { mobile } from '../responsive'
-import Link from 'next/link'
 
 // Styled-components
 const Container = styled.div`
@@ -80,9 +79,8 @@ const Navbar = () => {
           <Logo>LAGOS</Logo>
         </Center>
         <Right>
-          <Link href='../pages/Register'>
-            <MenuItem>REGISTER</MenuItem>
-          </Link>
+          <MenuItem>REGISTER</MenuItem>
+
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color='primary'>
